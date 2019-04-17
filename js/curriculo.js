@@ -231,7 +231,7 @@ window.onload = function() {
 		{text: ' Olá!', timeout: 4000,  speed: 80},
 		{text: ' Eu me chamo $\\color(white)\\background(red)\\color(yellow){Fernanda}.', timeout: 1500,  speed: 80},
 		{text: ' Seja bem vindo ao meu currículo.', timeout: 1000,  speed: 80},
-		{text: ' ', timeout: 1, erase: {size: 58, timeout: 4000, speed: 35},  speed: 80},
+		{text: ' ', timeout: 1, erase: {size: 62, timeout: 4000, speed: 35},  speed: 80},
 		{text: 'ls', timeout: 1000,  speed: 90, computer: true}
 	];
 
