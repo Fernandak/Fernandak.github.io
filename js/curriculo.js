@@ -247,7 +247,7 @@ window.onload = function() {
 		{text: '\n$\\background(red)\\color(white){[RESUMO]}', timeout: 1000},
 		{text: '\n$\\color(purple){FERNANDA PEREIRA FERREIRA}', timeout: 1},
 		{text: '\n$\\color(brown)\\tab(20){>FERNANDAKNF@GMAIL.COM}', timeout: 1},
-		{text: '\n$\\tab(20){22 ANOS}, $\\color(white){BRASILEIRA}', timeout: 1},					
+		{text: '\n$\\tab(20){23 ANOS}, $\\color(white){BRASILEIRA}', timeout: 1},					
 		{text: '\n$\\tab(20){PARNAMIRIM-RN}', timeout: 1}
 	];
 
