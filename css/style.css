@@ -1,0 +1,48 @@
+@-webkit-keyframes pointer-animation {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+} 
+
+@keyframes pointer-animation {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #2B2B2B;
+	font-size: 14px;
+	margin: 0px !important;
+	color: green-light;
+}
+
+* {
+	outline: none !important;
+}
+
+#cmd {
+	padding: 5px;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 0;
+}
+
+#cmd > * {
+	font-size: 1rem;
+}
+
+#pointer {
+	padding: 0px;
+	
+}
+
+#pointer.animation {
+	-webkit-animation: pointer-animation step-end 1s infinite;
+	animation: pointer-animation 1s step-end infinite;
+}
+
+#pointer {
+	color: green;
+	display: inline;
+}
