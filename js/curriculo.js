@@ -248,7 +248,7 @@ window.onload = function() {
 		{text: '\n$\\color(purple){FERNANDA PEREIRA FERREIRA}', timeout: 1},
 		{text: '\n$\\color(brown)\\tab(20){>FERNANDAKNF@GMAIL.COM}', timeout: 1},
 		{text: '\n$\\tab(20){23 ANOS}, $\\color(white){BRASILEIRA}', timeout: 1},					
-		{text: '\n$\\tab(20){PARNAMIRIM-RN}', timeout: 1}
+		{text: '\n$\\tab(20){CEARA-MIRIM-RN}', timeout: 1}
 	];
 
 
@@ -256,7 +256,7 @@ window.onload = function() {
 	var formacao = [
 		{text: '.\\formacao', timeout: 2000, speed: 90},
 		{text: '\n$\\background(red)\\color(white){[FORMAÇÃO]}', timeout: 1000},
-		{text: '\nANÁLISE E DESENVOLVIMENTO DE SISTEMAS (QUARTO SEMESTRE)\n UNIVERSIDADE NOVE DE JULHO ($\\color(blue){UNINOVE})', timeout: 50}
+		{text: '\n SISTEMAS DE INFORMAÇÃO (TERCEIRO SEMESTRE)\n UNIVERSIDADE NOVE DE JULHO ($\\color(blue){UNINOVE})', timeout: 50}
 	];
 
 	var habilidades = [
@@ -275,7 +275,7 @@ window.onload = function() {
 	var experiencia = [ 
 		{text: '.\\experiencia', timeout: 2000, speed: 90},
 		{text: '\n$\\background(red)\\color(white){[EXPERIÊNCIAS]}', timeout: 1000},
-      	{text: '\n$\\color(pink){[FREE LANCE]} - SÃO PAULO/SP', timeout: 1, speed: 1},
+      	{text: '\n$\\color(pink){[FREELANCE]} - SÃO PAULO/SP', timeout: 1, speed: 1},
       	{text: '\n$\\tab(20){JULHO/2018} ', timeout: 1, speed: 1},
       	{text: '\n$\\tab(20){DESENVOLVIMENTO EM:} $\\color(red){[NODEJS]}, $\\color(red){[REACT]}', timeout: 1, speed: 1}            
 	];
