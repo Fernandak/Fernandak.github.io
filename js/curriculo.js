@@ -294,7 +294,6 @@ window.onload = function() {
 		{assinatura : true, conteudo: formacao},
 		{assinatura : true, conteudo: habilidades},
 		{assinatura : true, conteudo: experiencia},
-  		//{assinatura : true, conteudo: academico},
   		{assinatura : true, conteudo: interacao}
       			
 	];
