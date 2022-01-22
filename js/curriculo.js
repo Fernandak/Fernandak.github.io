@@ -229,26 +229,28 @@ window.onload = function() {
 
 	var intro = [
 		{text: ' Olá!', timeout: 4000,  speed: 80},
-		{text: ' Eu me chamo $\\color(white)\\background(red)\\color(yellow){Fernanda}.', timeout: 1500,  speed: 80},
+		{text: ' Eu me chamo $\\color(white)\\background(red)\\color(white){Fernanda}.', timeout: 1500,  speed: 80},
 		{text: ' Seja bem vindo ao meu currículo.', timeout: 1000,  speed: 80},
 		{text: ' ', timeout: 1, erase: {size: 62, timeout: 4000, speed: 35},  speed: 80},
 		{text: 'ls', timeout: 1000,  speed: 90, computer: true}
 	];
 
 	var ls = [
-		{text: '$\\color(cyan){resumo}', timeout: 1,  speed: 1},	
-		{text: '\n$\\color(cyan){formacao}', timeout: 1,  speed: 1},	
-		{text: '\n$\\color(cyan){habilidades}', timeout: 1,  speed: 1},
-		{text: '\n$\\color(cyan){experiencia}', timeout: 1,  speed: 1},
+		{text: '$\\color(cyan){Resumo}', timeout: 1,  speed: 1},	
+		{text: '\n$\\color(cyan){Formacao}', timeout: 1,  speed: 1},	
+		{text: '\n$\\color(cyan){Habilidades}', timeout: 1,  speed: 1},
+		//{text: '\n$\\color(cyan){experiencia}', timeout: 1,  speed: 1},
 	];
 
 	var resumo = [
-		{text: '.\\resumo', timeout: 1000,  speed: 90},
+		{text: '.\\Resumo', timeout: 1000,  speed: 90},
 		{text: '\n$\\background(red)\\color(white){[RESUMO]}', timeout: 1000},
-		{text: '\n$\\color(purple){FERNANDA PEREIRA FERREIRA}', timeout: 1},
-		{text: '\n$\\color(brown)\\tab(20){>FERNANDAKNF@GMAIL.COM}', timeout: 1},
-		{text: '\n$\\tab(20){23 ANOS}, $\\color(white){BRASILEIRA}', timeout: 1},					
-		{text: '\n$\\tab(20){CEARA-MIRIM-RN}', timeout: 1}
+		{text: '\n$\\color(white){Fernanda Pereira Ferreira}', timeout: 1},
+		{text: '\n$\\color(white)\\tab(20){>Fernandaknf@gmail.com}', timeout: 1},
+		{text: '\n$\\tab(20){26 Anos}, $\\color(white){Brasileira}', timeout: 1},	
+		{text: '\n$\\tab(20){Solteira}', timeout: 1},	
+		{text: '\n$\\tab(20){Sem filhos}', timeout: 1},			
+		{text: '\n$\\tab(20){São Paulo-SP}', timeout: 1}
 	];
 
 
@@ -256,7 +258,7 @@ window.onload = function() {
 	var formacao = [
 		{text: '.\\formacao', timeout: 2000, speed: 90},
 		{text: '\n$\\background(red)\\color(white){[FORMAÇÃO]}', timeout: 1000},
-		{text: '\n SISTEMAS DE INFORMAÇÃO (TERCEIRO SEMESTRE)\n UNIVERSIDADE NOVE DE JULHO ($\\color(blue){UNINOVE})', timeout: 50}
+		{text: '\n SISTEMAS DE INFORMAÇÃO (SEGUNDO SEMESTRE)\n Universidade Estácio de Sá($\\color(blue){Estácio})', timeout: 50}
 	];
 
 	var habilidades = [
@@ -275,9 +277,9 @@ window.onload = function() {
 	var experiencia = [ 
 		{text: '.\\experiencia', timeout: 2000, speed: 90},
 		{text: '\n$\\background(red)\\color(white){[EXPERIÊNCIAS]}', timeout: 1000},
-      	{text: '\n$\\color(pink){[FREELANCE]} - SÃO PAULO/SP', timeout: 1, speed: 1},
-      	{text: '\n$\\tab(20){JULHO/2018} ', timeout: 1, speed: 1},
-      	{text: '\n$\\tab(20){DESENVOLVIMENTO EM:} $\\color(red){[NODEJS]}, $\\color(red){[REACT]}', timeout: 1, speed: 1}            
+      	{text: '\n$\\color(white){[FREELANCE]} - SÃO PAULO/SP', timeout: 1, speed: 1},
+      	{text: '\n$\\tab(20){JULHO/2020} ', timeout: 1, speed: 1},
+      	{text: '\n$\\tab(20){Quality Assurance:} $\\color(white){[Teste de funcionalidas]}, $\\color(white){[]}', timeout: 1, speed: 1}            
 	];
   
 
