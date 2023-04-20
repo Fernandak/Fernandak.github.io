@@ -239,7 +239,7 @@ window.onload = function() {
 		{text: '$\\color(cyan){Resumo}', timeout: 1,  speed: 1},	
 		{text: '\n$\\color(cyan){Formacao}', timeout: 1,  speed: 1},	
 		{text: '\n$\\color(cyan){Habilidades}', timeout: 1,  speed: 1},
-		//{text: '\n$\\color(cyan){experiencia}', timeout: 1,  speed: 1},
+		{text: '\n$\\color(cyan){experiencia}', timeout: 1,  speed: 1},
 	];
 
 	var resumo = [
@@ -247,7 +247,7 @@ window.onload = function() {
 		{text: '\n$\\background(red)\\color(white){[RESUMO]}', timeout: 1000},
 		{text: '\n$\\color(white){Fernanda Pereira Ferreira}', timeout: 1},
 		{text: '\n$\\color(white)\\tab(20){>Fernandaknf@gmail.com}', timeout: 1},
-		{text: '\n$\\tab(20){26 Anos}, $\\color(white){Brasileira}', timeout: 1},	
+		{text: '\n$\\tab(20){27 Anos}, $\\color(white){Brasileira}', timeout: 1},	
 		{text: '\n$\\tab(20){Solteira}', timeout: 1},	
 		{text: '\n$\\tab(20){Sem filhos}', timeout: 1},			
 		{text: '\n$\\tab(20){São Paulo-SP}', timeout: 1}
@@ -258,7 +258,7 @@ window.onload = function() {
 	var formacao = [
 		{text: '.\\formacao', timeout: 2000, speed: 90},
 		{text: '\n$\\background(red)\\color(white){[FORMAÇÃO]}', timeout: 1000},
-		{text: '\n SISTEMAS DE INFORMAÇÃO (SEGUNDO SEMESTRE)\n Universidade Estácio de Sá($\\color(blue){Estácio})', timeout: 50}
+		{text: '\n SISTEMAS DE INFORMAÇÃO (QUINTO SEMESTRE)\n Universidade Estácio de Sá($\\color(blue){Estácio})', timeout: 50}
 	];
 
 	var habilidades = [
